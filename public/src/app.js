@@ -1,12 +1,4 @@
 /**
- * Styles
- *
- */
-var spanStyle = {
-  textDecoration: 'line-through'
-}
-
-/**
  * components
  *
  */
@@ -42,9 +34,8 @@ var TodoItem = React.createClass({
   render: function() {
     return (
       <div className="todo-item-list">
-        {/*<h3>{this.props.data.title || '-'}</h3>*/}
         <input type="checkbox" onChange={this.handleCheckboxClick} checked={this.props.data.completed} /> 
-        <span style={this.props.data.completed ? spanStyle : {}}>{this.props.data.description}</span> 
+        <span style={this.props.data.completed ? {textDecoration: 'line-through'} : {}}>{this.props.data.description}</span> 
         <button
           className="btn-todo-delete"
           onClick={this.handleClick}>x</button>
