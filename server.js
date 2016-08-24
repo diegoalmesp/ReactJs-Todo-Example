@@ -93,7 +93,6 @@ app.post('/api/todos', function(req, res) {
 });
 
 app.delete('/api/todos/:id', function(req, res) {
-  console.log(req.params.id);
   fs.readFile(TODOS_FILE, function(err, data) {
     if (err) {
       console.error(err);

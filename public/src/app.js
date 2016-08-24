@@ -121,7 +121,6 @@ var App = React.createClass({
   },
 
   handleAddNewItem: function(newTodo) {
-    console.log(newTodo);
     $.ajax({
       url: this.props.url,
       dataType: 'json',

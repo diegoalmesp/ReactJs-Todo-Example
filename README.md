@@ -1,6 +1,12 @@
 # ReactJs Todo list Example
 
-this is a todo list made as an example for lessons on Angular Vs React Js
+This is a todo list made as an example for lessons on Angular Vs React Js.
+
+It uses a server with NodeJs and Express to store, update and delete data in a json file.
+
+#TODO
+
+- update to use Redux
 
 ## Install
 
