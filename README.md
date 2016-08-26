@@ -6,7 +6,8 @@ It uses a server with NodeJs and Express to store, update and delete data in a j
 
 #TODO
 
-- update to use Redux
+this example shows a poor practice: components comunicate to each other.
+This code should be improved with Flux/Redux so the components will comunicate to a Store
 
 ## Install
 
