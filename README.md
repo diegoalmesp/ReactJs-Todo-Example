@@ -11,7 +11,7 @@ This code should be improved with Flux/Redux so the components will comunicate t
 
 ## Install
 
-    git clone https://github.com/diegoalmesp/AngularJs-Todo-Example.git ReactTodoExample
+    git clone https://github.com/diegoalmesp/ReactJs-Todo-Example.git ReactTodoExample
 
     cd ReactTodoExample
 
